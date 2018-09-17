@@ -2,7 +2,7 @@
 
 if [ -z "$1" ]; then
     echo "waiting for the following arguments: username + max-page-number"
-    exit 0
+    exit 1
 else
     name=$1
 fi
